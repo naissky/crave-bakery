@@ -2,7 +2,7 @@ import Parraf from "./ui/Parraf";
 import SectionContainer from "./ui/SectionContainer";
 import TextHeader from "./ui/TextHeader";
 
-export default function () {
+export default function Footer() {
   return (
     <SectionContainer className="bg-foreground text-background">
       <div className="flex flex-col px-3 py-5 justify-center items-center text-center gap-5 md:gap-10">
