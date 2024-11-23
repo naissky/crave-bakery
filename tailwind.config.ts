@@ -11,6 +11,7 @@ export default {
       colors: {
         background: "#F4F4F4",
         foreground: "#181818",
+        primary: "#FFCADE"
       },
       fontFamily: {
         sans: ['Josefin Sans Variable', 'sans-serif'],

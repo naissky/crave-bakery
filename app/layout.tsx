@@ -6,6 +6,7 @@ import "@fontsource-variable/playfair-display";
 import "@fontsource-variable/josefin-sans";
 import Navbar from "./components/Navbar";
 import { ViewTransitions } from "next-view-transitions";
+import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -23,6 +24,7 @@ export default function RootLayout({
         <body className="bg-background">
           <Navbar />
           <main className="w-full">{children}</main>
+          <Footer/>
         </body>
       </html>
     </ViewTransitions>
